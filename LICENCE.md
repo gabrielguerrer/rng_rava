@@ -1,8 +1,8 @@
-= RAVA License Information
+# RAVA License Information
 
 RAVA uses two different licenses for its files — one for hardware and one for code.
 
-== Hardware
+## Hardware
 
 **RAVA hardware is released under [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).**
 
@@ -25,13 +25,13 @@ You do not have to comply with the license for elements of the material in the p
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
 
-== Code
+## Code
 
-**SparkFun code, firmware, and software is released under the MIT License(http://opensource.org/licenses/MIT).**
+**RAVA code, firmware, and software is released under the MIT License(http://opensource.org/licenses/MIT).**
 
 The MIT License (MIT)
 
-Copyright (c) 2016 SparkFun Electronics
+Copyright (c) 2023 Gabriel Guerrer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
