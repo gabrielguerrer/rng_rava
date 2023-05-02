@@ -1,6 +1,6 @@
 # RAVA License Information
 
-The RAVA project uses two different licenses for its files — one for hardware and one for code.
+The RAVA project uses two different licenses for its files — one for hardware and one for software.
 
 ## Hardware
 
@@ -23,9 +23,9 @@ Notices:
 - No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
 
-## Code
+## Software
 
-**RAVA firmware, driver, and software is released under the [MIT License](http://opensource.org/licenses/MIT).**
+**RAVA firmware, and software is released under the [MIT License](http://opensource.org/licenses/MIT).**
 
 The MIT License (MIT)
 
