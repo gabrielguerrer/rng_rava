@@ -4,7 +4,7 @@ RAVA uses two different licenses for its files — one for hardware and one for 
 
 ## Hardware
 
-**RAVA hardware is released under [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).**
+**RAVA hardware is released under [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).**
 
 Note: This is a human-readable summary of (and not a substitute for) the [license](http://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
@@ -27,7 +27,7 @@ No warranties are given. The license may not give you all of the permissions nec
 
 ## Code
 
-**RAVA code, firmware, and software is released under the MIT License(http://opensource.org/licenses/MIT).**
+**RAVA firmware, driver, and software is released under the [MIT License](http://opensource.org/licenses/MIT).**
 
 The MIT License (MIT)
 
