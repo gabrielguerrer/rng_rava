@@ -4,8 +4,8 @@
 
 ## Documentation
 
-- [Building your own RAVA circuit](wiki/Building-your-own-RAVA-circuit)
-- Testing your RAVA circuit
+- [Building your own RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Building-your-own-RAVA-circuit)
+- [Testing your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Testing-your-RAVA-circuit)
 
 ## Associated projects
 
