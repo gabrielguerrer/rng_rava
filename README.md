@@ -9,8 +9,8 @@
 
 ## Associated projects
 
-- [RAVA's firmware](https://github.com/gabrielguerrer/rng_rava_firmware)
-- [RAVA's python driver](https://github.com/gabrielguerrer/rng_rava_driver_py)
+- [RAVA firmware](https://github.com/gabrielguerrer/rng_rava_firmware)
+- [RAVA python driver](https://github.com/gabrielguerrer/rng_rava_driver_py)
 
 ## Publication
 
