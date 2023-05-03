@@ -1,15 +1,18 @@
 # RAVA: an Open Hardware True Random Number Generator based on Avalanche Noise
 
+![RAVA photo](rng_rava_photo.png)
+
 ## Documentation
 
-- Manufacturing your own board
-- Testing your board
+- [Building your own RAVA circuit](wiki/Building-your-own-RAVA-circuit)
+- Testing your RAVA circuit
 
 ## Associated projects
 
-- RAVA driver
+- [RAVA's firmware](https://github.com/gabrielguerrer/rng_rava_firmware)
+- [RAVA's python driver](https://github.com/gabrielguerrer/rng_rava_driver_py)
 
-## Publications
+## Publication
 
 An article describing the circuit is being submitted to peer review in an electronics journal
 
