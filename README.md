@@ -50,6 +50,8 @@ An article describing the circuit's details is being submitted for peer review i
 
 ## Documentation
 
+![RAVA logo](images/rng_rava_logo.png)
+
 - [RAVA circuit schematics](images/rng_rava_schematics.png)
 - [Building your own RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Building-your-own-RAVA-circuit)
 - [Testing your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Testing-your-RAVA-circuit)
@@ -62,5 +64,3 @@ An article describing the circuit's details is being submitted for peer review i
 ## Contact
 
 gabrielguerrer [at] gmail [dot] com
-
-![RAVA logo](images/rng_rava_logo.png)
