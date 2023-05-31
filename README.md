@@ -1,5 +1,3 @@
-![RAVA logo](images/rng_rava_logo.png)
-
 # RAVA: an Open Hardware True Random Number Generator based on Avalanche Noise
 
 ![RAVA photo](images/rng_rava_photo.png)
