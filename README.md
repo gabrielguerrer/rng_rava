@@ -2,8 +2,6 @@
 
 # RAVA: an Open Hardware True Random Number Generator based on Avalanche Noise
 
-![RAVA photo](images/rng_rava_photo.png)
-
 RAVA is an open source true random number generator (TRNG) designed to provide a fully transparent and customizable platform to make trusted and high-quality entropy accessible to a larger audience. The RAVA device's main characteristics are:
 
 - High-quality entropy: producing unbiased and independent random bits that do not require any post-processing algorithm.
@@ -22,6 +20,7 @@ RAVA is an open source true random number generator (TRNG) designed to provide a
 
 The implementation is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 137 Kbits/s. 
 
+![RAVA photo](images/rng_rava_photo.png)
 
 ## Entropy
 
