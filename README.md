@@ -1,3 +1,5 @@
+![RAVA logo](images/rng_rava_logo.png)
+
 # RAVA: an Open Hardware True Random Number Generator based on Avalanche Noise
 
 ![RAVA photo](images/rng_rava_photo.png)
@@ -62,5 +64,3 @@ An article describing the circuit's details is being submitted for peer review i
 ## Contact
 
 gabrielguerrer [at] gmail [dot] com
-
-![RAVA logo](images/rng_rava_logo.png)
