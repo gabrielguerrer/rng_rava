@@ -58,10 +58,10 @@ The example reveals nine pulses in the sampling interval of 3 mus that would res
 ## Documentation
 
 - [Building your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Building-your-RAVA-circuit)
-- [Testing the voltage outputs of your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Testing-your-RAVA-circuit)
-- [Uploading the firmware to your RAVA circuit] (https://)
-- [Installing RAVA's driver] (https://)
-- [Statistical tests of your RAVA circuit] (https://)
+- [Testing the voltage outputs of your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Testing-the-voltage-outputs-of-your-RAVA-circuit)
+- Uploading the firmware to your RAVA circuit
+- Installing RAVA's driver
+- Statistical tests of your RAVA circuit 
 
 ## Associated projects
 
