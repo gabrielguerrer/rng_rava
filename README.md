@@ -57,17 +57,16 @@ The example reveals nine pulses in the sampling interval of 3 mus that would res
 
 ## Documentation
 
-- [Building your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Building-your-RAVA-circuit)
-- [Testing the voltage outputs of your RAVA circuit](https://github.com/gabrielguerrer/rng_rava/wiki/Testing-the-voltage-outputs-of-your-RAVA-circuit)
-- Uploading the firmware to your RAVA circuit
-- Installing RAVA's driver
-- Statistical tests of your RAVA circuit 
+- [RAVA - Assembling and Inspecting](https://github.com/gabrielguerrer/rng_rava/wiki/RAVA-%E2%80%90-Assembling-and-Inspecting)
+- [RAVA - Firmware installation](https://github.com/gabrielguerrer/rng_rava_firmware/wiki/RAVA-%E2%80%90-Firmware-installation)
+- RAVA - Driver installation (Python)
+- RAVA - Diagnostics and statistical tests
 
 ## Associated projects
 
-- [RAVA firmware](https://github.com/gabrielguerrer/rng_rava_firmware)
-- [RAVA python driver](https://github.com/gabrielguerrer/rng_rava_driver_py)
-- [RAVA python diagnostics tool](https://github.com/gabrielguerrer/rng_rava_diagnostics_py)
+- [RAVA's Firmware](https://github.com/gabrielguerrer/rng_rava_firmware)
+- [RAVA's Python Driver](https://github.com/gabrielguerrer/rng_rava_driver_py)
+- [RAVA's Python Diagnostics Tool](https://github.com/gabrielguerrer/rng_rava_diagnostics_py)
 
 ## Contact
 
