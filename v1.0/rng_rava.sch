@@ -5360,48 +5360,6 @@ Author: Gabriel Guerrer</text>
 <label x="-279.4" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D5" class="0">
-<segment>
-<pinref part="MCU" gate="U1" pin="D4/A6"/>
-<wire x1="-129.54" y1="116.84" x2="-121.92" y2="116.84" width="0.1524" layer="91"/>
-<label x="-121.92" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="D4,5" gate="G$1" pin="2"/>
-<wire x1="-272.034" y1="103.886" x2="-272.034" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-272.034" y1="104.14" x2="-279.4" y2="104.14" width="0.1524" layer="91"/>
-<label x="-279.4" y="104.14" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="D2" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="1"/>
-<wire x1="-294.386" y1="105.156" x2="-302.006" y2="105.156" width="0.1524" layer="91"/>
-<label x="-302.006" y="105.156" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="U1" pin="D5#"/>
-<wire x1="-129.54" y1="114.3" x2="-121.92" y2="114.3" width="0.1524" layer="91"/>
-<label x="-121.92" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="U1" pin="A0"/>
-<wire x1="-129.54" y1="144.78" x2="-121.92" y2="144.78" width="0.1524" layer="91"/>
-<label x="-121.92" y="144.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D3" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="1"/>
-<wire x1="-294.386" y1="94.996" x2="-302.26" y2="94.996" width="0.1524" layer="91"/>
-<label x="-302.26" y="94.996" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="U1" pin="D9#/A8"/>
-<wire x1="-129.54" y1="104.14" x2="-121.92" y2="104.14" width="0.1524" layer="91"/>
-<label x="-121.92" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="AVA_Z1" class="0">
 <segment>
 <pinref part="R1B" gate="G$1" pin="1"/>
@@ -5507,6 +5465,43 @@ Author: Gabriel Guerrer</text>
 <pinref part="ICSP/SPI" gate="G$1" pin="VCC_3V"/>
 <wire x1="-134.366" y1="65.278" x2="-141.986" y2="65.278" width="0.1524" layer="91"/>
 <label x="-141.986" y="65.278" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="D2" class="0">
+<segment>
+<pinref part="MCU" gate="U1" pin="D13#"/>
+<wire x1="-129.54" y1="93.98" x2="-121.92" y2="93.98" width="0.1524" layer="91"/>
+<label x="-121.92" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="1"/>
+<wire x1="-294.386" y1="105.156" x2="-302.006" y2="105.156" width="0.1524" layer="91"/>
+<label x="-302.006" y="105.156" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="D3" class="0">
+<segment>
+<pinref part="MCU" gate="U1" pin="D5#"/>
+<wire x1="-129.54" y1="114.3" x2="-121.92" y2="114.3" width="0.1524" layer="91"/>
+<label x="-121.92" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="1"/>
+<wire x1="-294.386" y1="94.996" x2="-302.26" y2="94.996" width="0.1524" layer="91"/>
+<label x="-302.26" y="94.996" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="D5" class="0">
+<segment>
+<pinref part="D4,5" gate="G$1" pin="2"/>
+<wire x1="-272.034" y1="103.886" x2="-272.034" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-272.034" y1="104.14" x2="-279.4" y2="104.14" width="0.1524" layer="91"/>
+<label x="-279.4" y="104.14" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="U1" pin="D9#/A8"/>
+<wire x1="-129.54" y1="104.14" x2="-121.92" y2="104.14" width="0.1524" layer="91"/>
+<label x="-121.92" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
