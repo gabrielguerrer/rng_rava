@@ -2,23 +2,22 @@
 
 ![RAVA photo](v1.0/rng_rava_photo.png)
 
-RAVA is an open source true random number generator (TRNG) designed to offer a transparent and customizable platform, making reliable and high-quality entropy accessible to a wider audience. 
+RAVA is an open-source True Random Number Generator (TRNG) designed to offer a transparent and customizable platform, making auditalbe and high-quality entropy accessible to a wider audience. 
 The RAVA device's main characteristics are:
 
-- High-quality entropy: producing unbiased and independent random bits without a post-processing algorithm.
+- High-quality entropy: Producing unbiased and independent random bits without a post-processing algorithm.
 
-- Differential design: comparing two similar noise sources while subtracting potential influences from thermal and electromagnetic sources. This design aims towards immunity to environmental conditions.
+- Differential design: Aiming towards immunity to environmental conditions by comparing two similar and independent noise sources.
 
-- Dual entropy core: the circuit incorporates two parallel and independent entropy channels that simultaneously produce random bytes. The dual design provides redundancy, a double output rate, or a unique feature for experiments employing a condition/control design.
+- Dual entropy core: Incorporating two parallel and independent entropy channels that simultaneously produce random bytes. The dual design provides redundancy, a double output rate, or a unique feature for experiments employing a condition/control design.
 
-- Full transparency: as an open-source project that provides complete access to the circuit design, firmware, and user-side software, including drivers, libraries, and utilities. At the hardware level, monitoring headers allow real-time inspection of voltages and noise sources during operation.
+- Full transparency: As an open-source project providing complete access to the circuit design, firmware, and user-side software, including drivers, libraries, and utilities.  At the hardware level, monitoring headers allow real-time inspection of voltages and noise sources during operation.
 
-- Customizability: The device offers interface headers for integration with other circuits, sensors, and integrated circuit (IC) components. Users have full control over the device’s operation by sending commands through a communication interface. Moreover, as an open-source project, the firmware can be updated to modify circuit behavior and implement new functionalities.
+- Customizability: Offering interface headers for integration with other circuits, sensors, and integrated circuit (IC) components. Users have full control over the device's operation by sending commands through a communication interface. Moreover, as an open-source project, the firmware can be updated to modify the circuit's behavior and implement new functionalities.
 
-- Accessibility: as a discrete circuit that utilizes low-cost IC components and SMD resistors and capacitors of size 0805. This ensures that the device remains affordable and can be assembled by users through manual soldering of the components to the printed circuit board (PCB).
+- Accessibility: As a discrete circuit employing low-cost IC components and SMD resistors and capacitors of size 0805. Ensuring that the device remains affordable and can be assembled by users through manual soldering of the components to the printed circuit board. 
 
-The v1.0 implementation is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 141.8 Kbits/s. 
-The [v1.0 circuit schematics can be seen here](v1.0/rng_rava_schematics.png).
+The v1.0 implementation ([schematics](v1.0/rng_rava_schematics.png)) is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 136.0 Kbits/s.
 
 ## Publication
 
@@ -27,7 +26,7 @@ For all details, including a thorough investigation of the noise source, a stoch
 - [IEEE Access, DOI: X](https://)
 --> 
 An article describing the circuit's details is being submitted for peer review in an electronics journal. 
-It includes a thorough investigation of the noise source, a stochastic model, and statistical tests. 
+It includes a thorough investigation of the noise source, a stochastic model, and statistical tests.  
 More details soon.
 
 ## Entropy
