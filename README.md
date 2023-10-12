@@ -56,17 +56,16 @@ The example reveals nine pulses in the sampling interval of 3 mus that would res
 
 ## Documentation
 
-- [RAVA - Assembling and Inspecting](https://github.com/gabrielguerrer/rng_rava/wiki/RAVA-%E2%80%90-Assembling-and-Inspecting)
+- [RAVA ‐ Assembling and Inspecting](https://github.com/gabrielguerrer/rng_rava/wiki/RAVA-Device-%E2%80%90-Assembling-and-Inspecting)
 - [RAVA Firmware ‐ Installation](https://github.com/gabrielguerrer/rng_rava_firmware/wiki/RAVA-Firmware-%E2%80%90-Installation)
 - [RAVA Firmware ‐ How it works](https://github.com/gabrielguerrer/rng_rava_firmware/wiki/RAVA-Firmware-%E2%80%90-How-it-works)
-- RAVA - Driver installation (Python)
-- RAVA - Diagnostics and statistical tests
+- [RAVA Python Driver - Installation and Usage](https://github.com/gabrielguerrer/rng_rava_driver_py)
 
 ## Associated projects
 
 - [RAVA Firmware](https://github.com/gabrielguerrer/rng_rava_firmware)
 - [RAVA Python Driver](https://github.com/gabrielguerrer/rng_rava_driver_py)
-- [RAVA Python Diagnostics Tool](https://github.com/gabrielguerrer/rng_rava_diagnostics_py)
+- RAVA Python Diagnostics Tool
 
 ## Contact
 
