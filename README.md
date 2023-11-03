@@ -21,13 +21,10 @@ The v1.0 implementation ([schematics](v1.0/rng_rava_schematics.png)) is presente
 
 ## Publication
 
-<!-- 
-For all details, including a thorough investigation of the noise source, a stochastic model, and statistical tests, please see the article 
-- [IEEE Access, DOI: X](https://)
---> 
-An article describing the circuit's details is being submitted for peer review in an electronics journal. 
-It includes a thorough investigation of the noise source, a stochastic model, and statistical tests.  
-More details soon.
+For a comprehensive overview, encompassing an in-depth exploration of the noise source, a stochastic model, and statistical tests, please consult the article
+- [IEEE Access, DOI: 10.1109/ACCESS.2023.3327325](https://ieeexplore.ieee.org/document/10295491)
+
+![IEEE Access article](images/rng_rava_ieee_access.png)
 
 ## Entropy
 
