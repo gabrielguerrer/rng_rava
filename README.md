@@ -18,13 +18,6 @@ The RAVA device's main characteristics are:
 - Accessibility: As a discrete circuit employing low-cost IC components and SMD resistors and capacitors of size 0805. Ensuring that the device remains affordable and can be assembled by users through manual soldering of the components to the printed circuit board. 
 
 
-## Schematics
-
-The v1.0 implementation is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 136.0 Kbits/s.
-
-<a href="v1.0/rng_rava_schematics.png"><img src="v1.0/rng_rava_schematics.png" width="800"></a>
-
-
 ## Publication
 
 For a comprehensive overview, encompassing an in-depth exploration of the noise source, a stochastic model, and statistical tests, please consult the article
@@ -32,16 +25,24 @@ For a comprehensive overview, encompassing an in-depth exploration of the noise 
 
 ![IEEE Access article](images/rng_rava_ieee_access.png)
 
+
+## Schematics
+
+The v1.0 implementation is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 136.0 Kbits/s.
+
+<a href="v1.0/rng_rava_schematics.png"><img src="v1.0/rng_rava_schematics.png" width="650"></a>
+
+
 ## Entropy
 
 The physical phenomenon associated with the RAVA circuit’s entropy is the avalanche breakdown of reverse-biased diodes and the time unpredictability of those events.
 
 ![RAVA entropy schematics](images/rng_rava_entropy_schematics.png)
 
-A 25.5V voltage is applied to two reverse-biased 24V Zener diodes. 
-Next, the noise voltages are buffered using operational amplifiers (OA1, OA3).
+A 25.5V voltage is applied to two reverse-biased 24V Zener diodes, inducing avalanche breakdown.
+Next, the noise voltages are buffered using operational amplifiers (OA1, OA3). The purpose of the buffering stage is to prevent distortions that could be introduced in the subsequent steps.
 The noise voltages are then DC decoupled and raised to a common level of 2.5V using unity-gain operational amplifiers (OA2, OA4). 
-These operations result in the *avalanche noise* channels V_A1 and V_A2.
+These operations result in the *avalanche noise* channels V_A1 and V_A2 containing the original noise voltages, which have been inverted and raised to the 2.5V DC level.
 
 Finally, the analog channels V_A1 and V_A2 are connected to a comparator IC, which produces a digital output V_CMP representing which Zener produces the largest avalanche noise at a given time.
 The V_CMP output, referred to as *differential noise*, consists of a sequence of pulses with varying lengths and unknown rising edge times. 
