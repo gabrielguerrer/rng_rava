@@ -17,7 +17,13 @@ The RAVA device's main characteristics are:
 
 - Accessibility: As a discrete circuit employing low-cost IC components and SMD resistors and capacitors of size 0805. Ensuring that the device remains affordable and can be assembled by users through manual soldering of the components to the printed circuit board. 
 
-The v1.0 implementation ([schematics](v1.0/rng_rava_schematics.png)) is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 136.0 Kbits/s.
+
+## Schematics
+
+The v1.0 implementation is presented as a discrete circuit with an ATmega32U4 microcontroller and a USB interface, achieving an unbiased throughput of 136.0 Kbits/s.
+
+<a href="v1.0/rng_rava_schematics.png"><img src="v1.0/rng_rava_schematics.png" width="800"></a>
+
 
 ## Publication
 
